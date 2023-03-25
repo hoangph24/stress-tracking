@@ -3,6 +3,8 @@ import { Firestore } from '@google-cloud/firestore';
 import { Storage } from '@google-cloud/storage';
 import * as sharp from 'sharp';
 import { v4 as uuidv4 } from 'uuid';
+import { config } from 'dotenv';
+config();
 import { CreateStressLevelRecordDto } from './dto/create-stress-level-record.dto';
 import { StressLevelRecord } from './entities/stress-level-record.entity';
 import {
