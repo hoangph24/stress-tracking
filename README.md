@@ -17,5 +17,8 @@ The OOCA Stress Tracking API provides the following features:
 - Upload an image
 - Get stress tracking record by user
 
+## Deployment
+The OOCA Stress Tracking API has been deployed to [Vercel](https://vercel.com/) and can be accessed at https://stress-tracking-hoangph24.vercel.app/
+
 ## License
 This project is licensed under the MIT License. Please see the [LICENSE](LICENSE) file for details.
